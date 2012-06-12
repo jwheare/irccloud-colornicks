@@ -93,7 +93,7 @@ function colornicks() {
             // for the alpha, we use the data-name attribute instead of
             // the title attribute
             attr = "[data-name='"+author+"']";
-            chat_rule = "span.author a"+attr;
+            chat_rule = "a.author"+attr;
             list_rule = "ul.memberList li.user a.present"+attr;
         } else {
             attr = "[title^='"+author+" ']";
